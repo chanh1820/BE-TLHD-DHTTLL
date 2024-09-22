@@ -1,5 +1,5 @@
 # FROM maven:3.8.2-jdk-8 # for Java 8
-FROM adoptopenjdk/openjdk17:latest
+FROM eclipse-temurin:17-jdk
 
 WORKDIR /app
 
